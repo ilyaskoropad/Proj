@@ -1,0 +1,173 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+Body
+{
+	
+	background-color: black;
+	color: black;
+	background: url(http://uconstructor.com/_ld/5/49933279.jpg);
+	font-family: Arial;
+}
+
+
+
+.Head
+{
+	height: 280px;
+	font-size: 1.5em;
+}
+Span
+{
+	float: right;
+}
+.General
+{
+	margin-left: 300px;
+	margin-right: 300px;
+	min-width: 800px;
+	font-size: 1.5em;
+}
+.block
+{
+	margin-bottom: 30px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 20px;
+}
+.block_head
+{
+	font-size: 1.5em;
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+}
+
+
+
+.menu
+{
+	position: relative;
+	
+	width: 250px;
+	
+	float: left;
+	
+	font-size: 1.5em;
+	text-align: right;
+	
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 10px;
+}
+Li
+{
+	list-style: none;
+	cursor: pointer;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	padding: 0 5px;
+}
+Li:hover
+{
+	font-size: 1.2em;
+}
+
+
+
+.Clear
+{
+	clear: both;
+}
+
+
+
+.A_Hesh_Tag
+{
+	float: right;
+}
+A
+{
+	text-decoration: none;
+	color: black;
+}
+a:link
+{
+	text-decoration: none;
+	color: black;
+}
+a:Hover
+{
+	text-decoration: none;
+	color: white;
+}
+a:active
+{
+	text-decoration: none;
+	color: black;
+}
+a:unsited
+{
+	text-decoration: none;
+	color: black;
+}
+.Loggo
+{
+	width: 220px;
+	height: 220px;
+	margin: 0 auto;
+	Float: none;
+}
+
+
+
+.type_Text
+{
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 10px;
+	font-size: 1em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+}
+.type_Text_Area
+{
+	width: 70%;
+	max-width: 70%;
+	margin-left: 15%;
+	margin-bottom: 10px;
+	font-size: 1em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+}
+.type_Other
+{
+	margin-left: 15%;
+	margin-bottom: 10px;
+	font-size: 1em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	margin-right: 10px;
+}
+.type_Button
+{
+	float: right;
+	margin-right: 15%;
+	margin-bottom: 10px;
+	font-size: 1em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	cursor: pointer;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+.type_Button:hover
+{
+	border-bottom: 2px solid rgba(255, 255, 255, 0.7);	
+}
+form
+{
+	font-family: Arial;
+}

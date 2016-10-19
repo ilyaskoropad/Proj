@@ -1,0 +1,58 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+Body
+{
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 1.5em;
+}
+Table
+{
+	background-color: #FFF;
+	color: #000;
+	width: 100%;
+	border-collapse: collapse;
+}
+Tr
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+Tr:hover
+{
+	padding: 10px;
+	border: 1px solid white;
+	border-collapse: collapse;
+	background-color: rgba(255, 247, 0, 0.3);
+}
+Td
+{
+	border: 1px solid Black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+H1
+{
+	color: Black;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.BN
+{
+	border: none;
+}
+.BN:hover
+{
+	padding: 5px;
+	border: 1px solid white;
+	border-collapse: collapse;
+	background-color: white;
+}
+.Td_Fuuuu
+{
+	text-align: left;
+	vertical-align: top;
+}

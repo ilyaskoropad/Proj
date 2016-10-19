@@ -1,0 +1,28 @@
+body
+{
+	background: linear-gradient(to top, #EDEDED, white);
+}
+b
+{
+	color: black;
+	font: 24pt 'Comic Sans MS'; 
+	text-shadow: gray 1px 1px 1px;
+}
+.op
+{
+	padding: 10px 0px 10px 0px;
+	font: 15pt 'Comic Sans MS';
+	text-shadow: #C7C7C7 1px 1px 1px;
+}
+.opp
+{
+	padding: 10px 0px 10px 0px;
+	font: 15pt 'Comic Sans MS';
+	text-shadow: #C7C7C7 1px 1px 1px;
+	width: 20%;
+}
+.S
+{
+	width: 100%;
+	border-color: #C7C7C7;
+}

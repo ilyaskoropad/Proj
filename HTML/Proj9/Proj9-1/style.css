@@ -1,0 +1,87 @@
+body
+{
+	width: 100%;
+	margin: 0;
+}
+.one
+{
+	width: 700px;
+	border-collapse: collapse;
+}
+.two
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+.first
+{
+	width: 25%;
+}
+.clear
+{
+	clear: both;
+}
+.three
+{
+	width: 600px;
+	border-collapse: collapse;
+	float: right;
+}
+.lal
+{
+	width: 200px;
+	border-spacing: 10px;
+}
+.four
+{
+	width: 300px;
+	height: 50px;
+	background-color: #ffdb8b;
+	border-spacing: 10px;
+}
+.pad1
+{
+	background-color: red;
+}
+.pad2
+{
+	background-color: blue;
+}
+.pad3
+{
+	background-color: green;
+}
+.five
+{
+	width: 650px;
+	/*background-color: #ffdb8b;*/
+	border-spacing: 0px;
+}
+.lol
+{
+	height: 40px;
+}
+.k
+{
+	background-color: #483D8B;
+}
+.lol1
+{
+    height: 40px;
+	width: 200px;
+	background-color: green;
+}
+.lol2
+{
+	background-color: red;
+}
+.lol3
+{
+    height: 40px;
+	width: 200px;
+	background-color: yellow;
+}
+.lol4
+{
+	background-color: blue;
+}

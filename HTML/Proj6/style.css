@@ -1,0 +1,291 @@
+@font-face 
+{
+    font-family: Pickle-Pee; /* Имя шрифта */
+    src: url(Tahoma.ttf); /* Путь к файлу со шрифтом */
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Areal;
+}
+Body
+{
+	background-image: url(8.png);
+	background-repeat: repeat-x;
+}
+.Hr_Gigyrda
+{
+	border: none;
+	width: 420px;
+	margin: 0 auto;
+	background-color: #CCE6E4;
+	height: 4px;
+}
+.Hr_Labytenu
+{
+	border: none;
+	background-color: #CCE6E4;
+	height: 4px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.Hr_Gigyrda_Bottom
+{
+	border: none;
+	width: 19em;
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: #CCE6E4;
+	height: 2px;
+}
+.Hr_Meny_Line 
+{
+	border: none;
+	background-color: #357894;
+	height: 4px;
+	position:relative;
+	top: 3em;
+}
+.Hr_Div_Div_Line 
+{
+	border: none;
+	background-color: #CCE6E4;
+	height: 4px;
+	position:relative;
+	top: 1.6em;
+}
+.Div_Lever_900000
+{
+	width: 950px;
+	min-width: 950px;
+	margin: 0 auto;
+}
+.Div_First_Text_Line
+{
+	height: 100px;
+	text-align: center;
+	color: white;
+	margin-bottom: 20px;
+	position: relative;
+}
+.Div_Meny_Line
+{
+	background-color: #E9FDFC;
+	position: relative;
+	height: 65px;
+}
+.Div_Image_Area
+{
+	background-color: #E9FDFC;
+}
+.Div_Text_Case_Area
+{
+	color: #85a09d;
+	white-space: pre-line;
+	text-align: center;
+	font-size: 1.7em;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-family: Pickle-Pee;
+}
+.Div_Div_Case_Area
+{
+	width: 83px;
+	height: 25px;
+	margin: auto;
+	background-color: white;
+	border-left: 11px solid white;
+	border-right: 10px solid white;
+	margin-top: 5px;
+	position: relative;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+.Div_Cercle
+{
+	height: 25px;
+	width: 25px;
+	border-radius: 25px;
+	background-color: #839E9C; 
+	display: inline-block;
+	cursor: pointer;
+}
+.Div_Cercle:hover
+{
+	background-color: #6a4c31; 
+}
+.Div_Double_Text_Case
+{
+	color: #999;
+}
+.Div_Double_Text_Case_Left
+{
+	width: 46%;
+	display: inline-block;
+	float: left;
+	text-align: right;
+}
+.Div_Double_Text_Case_Right
+{
+	width: 46%;
+	display: inline-block;
+	float: right;
+	text-align: left;
+}
+.Div_Small_Litcos
+{
+	width: 150px;
+	height: 300px;
+	margin-right: 5px;
+	/* background-color: #666; */
+	display: inline-block;
+}
+.Div_Small_Litcos_Text
+{
+	font-size: 1.2em;
+	font-weight: 900;
+	color: #6a4c31;
+	margin-bottom: 15px;
+	font-family: Pickle-Pee;
+	margin-top: 10px;
+}
+.Div_HAIL_HYDRA
+{
+	width: 200px;
+	/* background-color: #666; */
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+.Span_First_Text_Line_2
+{	
+	font-size: 1em;
+	text-decoration: underline;
+	color: #CCE6E4;
+}
+.Span_First_Text_Line_1
+{	
+	font-size: 4em;
+}
+.Span_Cool_Text
+{
+	font-weight: 900;
+}
+.Span_Spaaaaaaaaaaan
+{
+	color: #999;
+}
+.Span_Last_Text_Line
+{	
+	font-size: 1em;
+	color: #666;
+}
+.Li_Meny_Button
+{	
+	display: block;
+	float: left;
+	width: 15%;
+	height: 50px;
+	text-align: center;
+	padding-top: 15px;
+	border-right: 1px solid #357894;
+	color: #357894;
+	cursor: pointer;
+}
+.Li_Meny_Button_First
+{	
+	display: block;
+	float: left;
+	width: 15%;
+	height: 50px;
+	text-align: center;
+	padding-top: 15px;
+	border-right: 1px solid #357894;
+	margin-left: 13%;
+	color: #357894;
+	cursor: pointer;
+}
+.Li_Meny_Button_Last
+{	
+	display: block;
+	float: left;
+	width: 15%;
+	text-align: center;
+	height: 50px;
+	padding-top: 15px;
+	color: #357894;
+	cursor: pointer;
+}
+.Li_Meny_Button_Last:hover
+{
+	background-color: #839E9C;
+	color: white;
+}
+.Li_Meny_Button:hover
+{
+	background-color: #839E9C;
+	color: white;
+}
+.Li_Meny_Button_First:hover
+{
+	background-color: #839E9C;
+	color: white;
+}
+.Li_Pochti_Last
+{
+	list-style-image: url(2.png);
+	text-transform: uppercase;
+	font-size: 0.7em;
+	margin-bottom: 5px;
+	font-family: Pickle-Pee;
+	color: #839E9C; 
+	cursor: pointer;
+}
+.Ul_Meny_Line
+{
+	top: -4px;
+	position: relative;
+}
+.Img_Big
+{
+	width: 100%;
+}
+.Img_Small
+{
+	max-width: 150px;
+}
+.Img_HAIL_HYDRA
+{
+	display: inline-block;
+	float: right;
+}
+.Clear
+{
+	clear: both;
+}
+.P_Why
+{
+	font-size: 2em;
+	font-weight: 900;
+	color: #6a4c31;
+	margin-bottom: 15px;
+	font-family: Pickle-Pee;
+	letter-spacing: -1px;
+}
+.P_Waagh
+{
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	margin-bottom: 20px;
+	font-family: Pickle-Pee;
+	color: #839E9C; 
+}
+.P_Last
+{
+	font-size: 2em;
+	font-weight: 900;
+	font-family: Pickle-Pee;
+	color: #85a09d;
+}

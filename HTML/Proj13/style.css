@@ -1,0 +1,306 @@
+body
+{
+	background: url(https://magistr911.ru/wp-content/uploads/2015/07/240283-1400x1050.jpg);
+	background-size: cover;
+}
+
+html 
+{ 
+	overflow:  hidden;
+}
+
+
+@keyframes city1
+{
+	from
+	{ 
+		background-position: -1000px 100%, 0 0;
+	}
+	
+	to 
+	{ 
+		background-position: 0 100%, 0 0; 
+	}
+}
+@-webkit-keyframes city1
+{
+	from 
+	{
+		background-position: -1000px 100%, 0 0;
+	}
+	
+	to 
+	{
+		background-position: 0 100%, 0 0;
+	}
+}
+
+
+
+@keyframes Start1
+{
+	from 
+	{ 
+		margin-top: 500px;
+		background-color: white;
+	}
+	to 
+	{
+		margin-top: 5px;
+		background-color:RGBA(0, 0, 0, 0.85);
+	}
+}
+@-webkit-keyframes Start1
+{
+	from 
+	{ 
+		margin-top: 500px;
+		background-color: white;
+	}
+	to 
+	{
+		margin-top: 5px;
+		background-color:RGBA(0, 0, 0, 0.85);
+	}
+}
+
+
+
+@keyframes Start2
+{
+	from 
+	{ 
+		background-color: white;
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.85);
+	}
+}
+@-webkit-keyframes Start2
+{
+	from 
+	{ 
+		background-color: white;
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.85);
+	}
+}
+
+
+
+@keyframes Start3
+{
+	from 
+	{ 
+		background-color: white;
+		transform: rotate(90deg);
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.85);
+		transform: rotate(0deg);
+	}
+}
+@-webkit-keyframes Start3
+{
+	from 
+	{ 
+		background-color: white;
+		transform: rotate(90deg);
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.85);
+		transform: rotate(0deg);
+	}
+}
+
+
+
+@keyframes Start4
+{
+	from 
+	{ 
+		background-color: white;
+		transform: scale(0.1, 0.1);
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.85);
+		transform: scale(1, 1);
+	}
+}
+@-webkit-keyframes Start4
+{
+	from 
+	{ 
+		background-color: white;
+		transform: scale(0.1, 0.1);
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.85);
+		transform: scale(1, 1);
+	}
+}
+
+
+
+@keyframes Start5
+{
+	from 
+	{ 
+		background-color: white;
+		transform: translate(300px, 300px);
+	}
+	50%
+	{
+		transform: translate(-300px, -300px);
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.85);
+		transform: translate(0px, 0px);
+	}
+}
+@-webkit-keyframes Start5
+{
+	from 
+	{ 
+		background-color: white;
+		transform: translate(300px, 300px);
+	}
+	50%
+	{
+		transform: translate(-300px, -300px);
+	}
+	to 
+	{
+		background-color:RGBA(0, 0, 0, 0.85);
+		transform: translate(0px, 0px);
+	}
+}
+
+
+
+main 
+{
+	width: 80%;
+	min-height: 800px;
+	display: block;
+	margin: auto;
+	background: black;
+	padding: 20px;
+}
+.matr1
+{
+	background-color:RGBA(0, 0, 0, 0.85);
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+	margin-top:5px;
+	color:green;
+	font-size:3em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:center;
+	animation: Start1 2s ease-in-out;
+    -webkit-animation: Start1 2s ease-in-out;
+}
+.matr2
+{
+	background-color:RGBA(0, 0, 0, 0.85);
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+	margin-top:5px;
+	color:green;
+	font-size:3em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:center;
+	animation: Start2 2s ease-in-out;
+    -webkit-animation: Start2 2s ease-in-out;
+}
+.matr3
+{
+	background-color:RGBA(0, 0, 0, 0.85);
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+	margin-top:5px;
+	color:green;
+	font-size:3em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:center;
+	animation: Start3 2s ease-in-out;
+    -webkit-animation: Start3 2s ease-in-out;
+}
+.matr4
+{
+	background-color:RGBA(0, 0, 0, 0.85);
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+	margin-top:5px;
+	color:green;
+	font-size:3em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:center;
+	animation: Start4 2s ease-in-out;
+    -webkit-animation: Start4 2s ease-in-out;
+}
+.matr5
+{
+	background-color:RGBA(0, 0, 0, 0.85);
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+	margin-top:5px;
+	color:green;
+	font-size:2.5em;
+	border-radius: 1em;
+	padding: 1em;
+	text-align:center;
+	animation: Start5 2s ease-in-out;
+    -webkit-animation: Start5 2s ease-in-out;
+}
+img
+{
+	border-radius: 10px;
+}
+a
+{
+	text-decoration: none;
+}
+.Battunya
+{
+	font-size: 2em;
+	color:green;
+	background-color:RGBA(0, 0, 0, 0.85);
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 200px;
+	float:left;
+}
+.zagl
+{
+	font-size: 2em;
+	color:green;
+	background-color:RGBA(0, 0, 0, 0.85);
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 1000px;
+	text-align:center;
+}

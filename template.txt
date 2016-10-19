@@ -1,0 +1,12 @@
+﻿<!DOCTYPE HTML>
+<Html>
+    <Head>
+    <Title>Практическая 9-3</Title>
+        <Meta charset="utf-8">
+        <Link rel="stylesheet" type="text/css" href="style.css">
+        </Meta>
+    </Head>
+<Body>
+	
+</Body>
+</Html>
