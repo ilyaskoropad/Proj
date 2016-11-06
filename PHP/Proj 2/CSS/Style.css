@@ -1,0 +1,165 @@
+		/* Основные стили сайта. */
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 1em;
+}
+Body
+{
+	
+	background-color: #1E1E1E;
+	color: #D3D3D3;
+	font-family: Arial;
+}
+.Logo
+{
+	height: 150px;
+	width: 100%;
+}
+
+		/* Стили для блока меню. */
+
+.Menu
+{
+	position: relative;
+	
+	width: 250px;
+	height: 100%;
+	
+	margin-left: 100px;
+	
+	float: left;
+	
+	font-size: 1em;
+	text-align: right;
+}
+Li
+{
+	list-style: none;
+	cursor: pointer;
+	border-bottom: 1px solid rgba(255, 164, 0, 0.3);
+	padding: 0 5px;
+	margin-bottom: 5px;
+}
+
+		/* Стили для блока содержимого сайта. */
+
+.General
+{
+	margin-left: 352px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	min-width: 800px;
+	font-size: 1em;
+}
+.Block_Head
+{
+	margin-bottom: 5px;
+	background-color: #262626;
+	color: #FFA400;
+	padding: 10px;
+}	
+.Block_Body
+{
+	background-color: #262626;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+.Bookmark
+{
+	float: right;
+}
+.Delimiter
+{
+	border-right: 2px solid #FFA400;	
+}
+
+		/* Стили форм. */
+
+.Type_Text
+{
+	width: 100%;
+	font-size: 1em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 5px;
+}
+.Type_Text_Area
+{
+	width: 100%;
+	max-width: 100%;
+	font-size: 1em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 5px;
+}
+.Type_Button
+{
+	min-width: 150px;
+	float: right;
+	font-size: 1em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 5px;
+	cursor: pointer;
+	border-bottom: 3px solid rgba(255, 164, 0, 1);
+}
+.Type_Button:hover
+{
+	border-bottom: 3px solid rgba(255, 255, 255, 1);	
+}
+
+		/* Вспомогательные стили. */
+
+.Clear
+{
+	clear: both;
+}
+
+		/* Стили таблиц. */
+
+Table
+{
+	width: 100%;
+	border-spacing: 20px;
+}
+
+		/* Другие стили */
+
+A
+{
+	text-decoration: none;
+	color: #D3D3D3;
+}
+A:link
+{
+	text-decoration: none;
+	color: #D3D3D3;
+}
+A:Hover
+{
+	text-decoration: none;
+	color: #FFA400;
+}
+A:active
+{
+	text-decoration: none;
+	color: #D3D3D3;
+}
+A:unsited
+{
+	text-decoration: none;
+	color: #D3D3D3;
+}
+
+
+
+
+
+
+
+
+

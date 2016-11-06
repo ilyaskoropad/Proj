@@ -1,0 +1,192 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+Body
+{
+	
+	background-color: black;
+	color: black;
+	background: url(http://uconstructor.com/_ld/5/49933279.jpg);
+	font-family: Arial;
+}
+
+
+
+.Head
+{
+	height: 80px;
+	font-size: 1em;
+}
+Span
+{
+	float: right;
+}
+.General
+{
+	margin-left: 350px;
+	margin-right: 50px;
+	min-width: 800px;
+	font-size: 1em;
+	padding-top: 10px;
+}
+.block
+{
+	margin-bottom: 20px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 20px;
+}
+.block_head
+{
+	font-size: 1em;
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+}
+.block_head_BB
+{
+	font-size: 1em;
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+
+
+.menu
+{
+	position: fixed;
+	
+	width: 300px;
+	height: 100%;
+	
+	float: left;
+	
+	font-size: 1em;
+	text-align: right;
+	
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 10px;
+}
+Li
+{
+	list-style: none;
+	cursor: pointer;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	padding: 0 5px;
+}
+Li:hover
+{
+	font-size: 1em;
+}
+
+
+
+.Clear
+{
+	clear: both;
+}
+
+
+
+.A_Hesh_Tag
+{
+	float: right;
+}
+A
+{
+	text-decoration: none;
+	color: black;
+}
+a:link
+{
+	text-decoration: none;
+	color: black;
+}
+a:Hover
+{
+	text-decoration: none;
+	color: white;
+}
+a:active
+{
+	text-decoration: none;
+	color: black;
+}
+a:unsited
+{
+	text-decoration: none;
+	color: black;
+}
+.Loggo
+{
+	height: 80px;
+	Float: left;
+}
+
+
+
+.type_Text
+{
+	width: 97.5%;
+	font-size: 1em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+}
+.type_Text_Area
+{
+	width: 100%;
+	max-width: 100%;
+	font-size: 1em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+}
+.type_Other
+{
+	width: 97.5%;
+	font-size: 1em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	margin-right: 10px;
+}
+.type_Button
+{
+	min-width: 150px;
+	float: right;
+	font-size: 1em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	cursor: pointer;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+.type_Button:hover
+{
+	border-bottom: 2px solid rgba(255, 255, 255, 0.7);	
+}
+form
+{
+	font-family: Arial;
+}
+
+
+
+Table
+{
+	width: 100%;
+	max-height:100%;
+}
+Td
+{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 10px;
+}
+Tr
+{
+	
+}
